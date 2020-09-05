@@ -20,5 +20,10 @@ $ puppet apply <puppet-file-name>.pp --noop
 # Apply
 $ puppet apply <puppet-file-name>.pp
 
+# Dry run on agent node
+$ puppet agent -tv --noop
+
+# Run on agent node
+$ puppet agent -tv 
 
 

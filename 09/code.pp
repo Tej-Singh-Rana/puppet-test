@@ -1,9 +1,9 @@
 node default { }
 node 'stapp01.com', 'stapp02.com', 'stapp03.com' {
-     include ntpconfig
+    include ntpconfig
 }
      
-   class ntpconfig {
+  class ntpconfig {
      package { "ntp":
        ensure => present,
      }
